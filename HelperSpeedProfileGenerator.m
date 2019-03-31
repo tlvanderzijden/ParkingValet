@@ -85,7 +85,7 @@ classdef HelperSpeedProfileGenerator < matlab.System & matlab.system.mixin.Propa
         %MaxAcceleration Maximum longitudinal acceleration 
         %
         %   Default : 3 (meters/second^2)
-        MaxAcceleration   = 3
+        MaxAcceleration   = 2
         
         %MaxDeceleration Maximum longitudinal deceleration 
         %

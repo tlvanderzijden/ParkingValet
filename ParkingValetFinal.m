@@ -75,7 +75,7 @@ end
 %determine the routeplan to the parking spot
 StartPose = [4 12 0];
 EndPose = parkPose; 
-Attributes.SpeedLimit = 2; 
+Attributes.SpeedLimit = 2; %speedlimit when parking
 Attributes.StopLine = 1;
 Attributes.TurnManuever = 1; 
 routePlan = table(StartPose, EndPose, Attributes);
@@ -258,7 +258,7 @@ while ~reachedDestination(behavioralPlanner)
     % Generate a speed profile based on the accumulated lengths along the 
     refSpeeds = speedProfileGenerator(refPathLengths);
     maxSpeed = speedConfig.MaxSpeed;
-    %plotSpeedProfile(refPathLengths, refSpeeds, directions, maxSpeed)
+    plotSpeedProfile(refPathLengths, refSpeeds, directions, maxSpeed)
     pathAnalyzer = HelperPathAnalyzer(refPoses, refSpeeds, directions, ...
     'Wheelbase', vehicleDims.Wheelbase);
 
