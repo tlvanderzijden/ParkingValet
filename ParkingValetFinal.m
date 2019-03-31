@@ -6,8 +6,6 @@
 clear all
 clc
 close all
-addpath('Functions')
-addpath('Variables')
 simulateDrive = 1; %do we want to simulate the calculated paths
 
 %% Initialisation of costmap
