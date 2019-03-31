@@ -1,5 +1,7 @@
 # ParkingValet
-This is the code of the project of  the course SC42090 Robot Motion Planning and Control, TU Delft, DCSC by:
+This is the code of the project of  the course SC42090 Robot Motion Planning and Control, TU Delft, DCSC.
+Run `ParkingValetFinal` 
+By:
 <ul>
 <li>Dirk Eijssen</li>
 <li>Annemartijne Sevenster</li>
